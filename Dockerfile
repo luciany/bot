@@ -4,6 +4,8 @@ RUN mkdir /usr/src/app
 
 WORKDIR /usr/src/app
 
+COPY package*.json ./
+
 ENV PATH /app/node_modules/.bin:$PATH
 
 ADD package.json /usr/src/app
