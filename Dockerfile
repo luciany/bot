@@ -19,4 +19,4 @@ ADD . /usr/src/app
 RUN cd /usr/src/app; npm install
 
 EXPOSE  8080
-CMD ["node", "/src/index.js"]
+CMD ["node", "/usr/src/app/index.js"]
